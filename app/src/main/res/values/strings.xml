@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Hello Android</string>
+    <string name="business_name">U d a c i t y</string>
+    <string name="contacts">Contacts</string>
+    <string name="address">2465 Latham St, Mountain View, CA 94043</string>
+    <string name="phone_number">+1 650 555 5555</string>
+    <string name="link_to_web_page">www.udacity.com</string>
+</resources>

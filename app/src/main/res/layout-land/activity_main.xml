@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.helloandroid.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="@dimen/heightOrWidth_0"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/udacity_logo"
+            style="@style/ImageViewUdacityLogo"
+            android:src="@drawable/udacity_blue" />
+
+        <TextView
+            style="@style/TextViewBusinessName"
+            android:layout_below="@+id/udacity_logo"
+            android:text="@string/business_name"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/heightOrWidth_0"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/grey_800"
+        android:orientation="vertical">
+
+        <View
+            style="@style/ViewLine"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/paddingOrMargin_L">
+
+            <ImageView
+                style="@style/ImageViewContacts"
+                android:src="@drawable/contacts_background" />
+
+            <TextView
+                style="@style/TextViewContacts"
+                android:text="@string/contacts"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/paddingOrMargin_L"
+            android:paddingRight="@dimen/paddingOrMargin_L">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    style="@style/ImageViewIcon"
+                    android:src="@drawable/place_icon_white" />
+
+                <TextView
+                    style="@style/TextViewContactInfo"
+                    android:autoLink="map"
+                    android:text="@string/address" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/paddingOrMargin_M"
+                android:layout_marginTop="@dimen/paddingOrMargin_M"
+                android:orientation="horizontal">
+
+                <ImageView
+                    style="@style/ImageViewIcon"
+                    android:src="@drawable/number_icon_white" />
+
+                <TextView
+                    style="@style/TextViewContactInfo"
+                    android:autoLink="phone"
+                    android:text="@string/phone_number"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    style="@style/ImageViewIcon"
+                    android:src="@drawable/web_page_icon_white" />
+
+                <TextView
+                    style="@style/TextViewContactInfo"
+                    android:autoLink="web"
+                    android:text="@string/link_to_web_page"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

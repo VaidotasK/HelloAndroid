@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="paddingOrMargin_S">12dp</dimen>
+    <dimen name="paddingOrMargin_M">16dp</dimen>
+    <dimen name="paddingOrMargin_L">34dp</dimen>
+    <dimen name="paddingOrMargin_XL">42dp</dimen>
+    <dimen name="textSize_M">18sp</dimen>
+    <dimen name="textSize_L">24sp</dimen>
+    <dimen name="heightOrWidth_0">0dp</dimen>
+    <dimen name="heightOrWidthLine">3dp</dimen>
+    <dimen name="heightOrWidthImageMax_S">34dp</dimen>
+    <dimen name="heightOrWidthImageMax_M">42dp</dimen>
+    <dimen name="heightOrWidthImageMax_XL">100dp</dimen>
+
+</resources>

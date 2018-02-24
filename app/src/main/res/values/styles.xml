@@ -1,0 +1,68 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--Style for Udacity logo-->
+    <style name="ImageViewUdacityLogo" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:maxHeight">@dimen/heightOrWidthImageMax_XL</item>
+    </style>
+    <!--Style for Udacity main word-->
+    <style name="TextViewBusinessName" parent="AppTheme">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/grey_600</item>
+        <item name="android:textSize">@dimen/textSize_L</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <!--Style of View - Line -->
+    <style name="ViewLine" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/heightOrWidthLine</item>
+        <item name="android:background">@color/udacityMainLightBlue</item>
+    </style>
+    <!--Style of ImgageView - Contacts -->
+    <style name="ImageViewContacts" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:maxHeight">@dimen/heightOrWidthImageMax_S</item>
+    </style>
+    <!--Style of TextView - Contacts-->
+    <style name="TextViewContacts" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/grey_900</item>
+        <item name="android:textSize">@dimen/textSize_L</item>
+    </style>
+    <!--Style of icons - Place, number, web address-->
+    <style name="ImageViewIcon" parent="AppTheme">
+        <item name="android:layout_width">@dimen/heightOrWidthImageMax_M</item>
+        <item name="android:layout_height">@dimen/heightOrWidthImageMax_M</item>
+        <item name="android:background">@color/udacityMainLightBlue</item>
+    </style>
+    <!--Style of TextView = contact information-->
+    <style name="TextViewContactInfo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/paddingOrMargin_M</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/textSize_M</item>
+    </style>
+
+
+
+
+</resources>
