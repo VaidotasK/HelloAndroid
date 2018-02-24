@@ -3,8 +3,8 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#212121</color>
     <color name="colorAccent">#FFFFFF</color>
-    <color  name="grey_600">#757575</color>
-    <color name="grey_800">#424242"</color>
+    <color name="grey_600">#757575</color>
+    <color name="grey_800">#424242</color>
     <color name="grey_900">#212121</color>
     <color name="udacityMainLightBlue">#02B3E4</color>
 </resources>

@@ -20,7 +20,7 @@
         <TextView
             style="@style/TextViewBusinessName"
             android:layout_below="@+id/udacity_logo"
-            android:text="@string/business_name"/>
+            android:text="@string/business_name" />
 
     </RelativeLayout>
 
@@ -31,8 +31,7 @@
         android:background="@color/grey_800"
         android:orientation="vertical">
 
-        <View
-            style="@style/ViewLine"/>
+        <View style="@style/ViewLine" />
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -45,7 +44,7 @@
 
             <TextView
                 style="@style/TextViewContacts"
-                android:text="@string/contacts"/>
+                android:text="@string/contacts" />
 
         </RelativeLayout>
 
@@ -87,7 +86,7 @@
                 <TextView
                     style="@style/TextViewContactInfo"
                     android:autoLink="phone"
-                    android:text="@string/phone_number"/>
+                    android:text="@string/phone_number" />
 
             </LinearLayout>
 
@@ -103,7 +102,7 @@
                 <TextView
                     style="@style/TextViewContactInfo"
                     android:autoLink="web"
-                    android:text="@string/link_to_web_page"/>
+                    android:text="@string/link_to_web_page" />
 
             </LinearLayout>
 
